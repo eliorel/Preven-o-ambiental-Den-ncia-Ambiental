@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Denuncie problemas ambientais com a plataforma SOS 102. Registre ocorrências, acompanhe ações e visualize no mapa." />
+    <title>Prevenção ambiental — Denúncia Ambiental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="pag.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="mapa.html">
+          <strong>Prevenção ambiental</strong>
+          <span>Denúncias Ambientais</span>
+        </a>
+        <nav aria-label="Menu principal">
+          <ul class="nav-list">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#denunciar">Denunciar</a></li>
+            <li><a href="mapa.html">Mapa</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Prevenção ambiental</span>
+            <h1>Transforme sua denúncia em ação para o mundo.</h1>
+            <p>Compartilhe informações sobre problemas ambientais com praticidade, segurança e clareza. Sua colaboração é fundamental para fortalecer o controle social e garantir um espaço mais saudável e preservado para todos.</p>
+            <div class="hero-actions">
+                <a class="btn primary" href="#denunciar">Registrar denúncia</a>
+                <a class="btn outline" href="mapa.html">Ver mapa de ocorrências</a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-hidden="true">
+            <div class="panel-chip">Denúncias Ambientais</div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQopr7oo5r8d6ASJMcEvF2vFW3tY_Xi-Ptfkg&s" alt="Pessoa usando aplicativo de denúncia" />
+          </div>
+        </div>
+      </section>
+
+      <section id="denunciar" class="report-section container">
+        <div class="section-header">
+          <div>
+            
+            <h2>Envie uma denúncia com rapidez e clareza</h2>
+          </div>
+          <p>Com cada detalhe compartilhado, fica mais fácil para a equipe localizar a situação e organizar as ações para resolvê-la.</p>
+        </div>
+
+        <form class="report-form" action="/submit-denuncia" method="post" enctype="multipart/form-data" novalidate>
+          <div class="form-grid">
+            <div class="form-column">
+              <div class="form-row">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Seu nome (opcional)" />
+              </div>
+              <div class="form-row">
+                <label for="contato">Contato</label>
+                <input id="contato" name="contato" type="text" placeholder="Telefone ou email (opcional)" />
+              </div>
+              <div class="form-row">
+                <label for="local">Localidade <span>*</span></label>
+                <input id="local" name="local" type="text" placeholder="Rua, bairro, cidade" required />
+              </div>
+            </div>
+            <div class="form-column">
+              <div class="form-row">
+                <label for="descricao">Descrição <span>*</span></label>
+                <textarea id="descricao" name="descricao" rows="7" placeholder="Descreva o problema com detalhes" required></textarea>
+              </div>
+              <div class="form-row">
+                <label for="foto">Foto ou evidência</label>
+                <input id="foto" name="foto" type="file" accept="image/*" />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row form-footer">
+            <p class="hint">Campos obrigatórios marcados com <span>*</span>.</p>
+            <div class="actions">
+              <button type="submit" class="btn primary">Enviar denúncia</button>
+              <a class="btn ghost" href="mapa.html">Ver no mapa</a>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="info-section container">
+        <div class="info-grid">
+          <article class="info-card">
+            <h3>Por que denunciar?</h3>
+            <p>Relatos claros e completos fazem com que as autoridades ajam mais rápido e garantem que tudo seja feito de forma aberta e visível.</p>
+          </article>
+          <article class="info-card">
+            <h3>O que fazemos</h3>
+            <p>Anotamos o que você relatou, organizamos esses dados e mostramos no mapa para todos verem. Também facilitamos o acompanhamento de cada passo da solução do problema.</p>
+          </article>
+          <article class="info-card">
+            <h3>Privacidade</h3>
+            <p>A decisão de compartilhar seus dados é sua. Você pode denunciar sem se identificar, e mesmo assim sua ocorrência será recebida normalmente.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="how-it-works container">
+        <div class="section-header">
+          <span class="eyebrow">Como funciona</span>
+          <h2>Processo transparente em 3 passos</h2>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card">
+            <strong>1</strong>
+            <h4>Registre a ocorrência</h4>
+            <p>Preencha o formulário com local e descrição para registrar o problema ambiental.</p>
+          </div>
+          <div class="step-card">
+            <strong>2</strong>
+            <h4>Envie evidências</h4>
+            <p>Adicione fotos ou detalhes adicionais para tornar a denúncia mais precisa.</p>
+          </div>
+          <div class="step-card">
+            <strong>3</strong>
+            <h4>Acompanhe no mapa</h4>
+            <p>Veja o progresso das ocorrências e saiba onde as ações estão sendo realizadas.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contato">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">Prevenção ambiental</p>
+          <p>Entre em contato para tirar dúvidas ou enviar informações adicionais.</p>
+          <br>
+          <p><a href="https://wa.me/5548991095522" target="_blank" rel="noopener noreferrer">(+55)48 99109-5522</a></p>
+        </div>
+        <div class="footer-links">
+          <a href="mapa.html">Mapa de ocorrências</a>
+          <a href="#denunciar">Enviar denúncia</a>
+        </div>
+        <div class="footer-meta">
+          <p>&copy; <span id="ano"></span> 102 Internet</p>
+          <small>Desenvolvido pela turma 102 de internet.</small>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script>
+      const ano = document.getElementById('ano');
+      ano.textContent = new Date().getFullYear();
+
+      const form = document.querySelector('.report-form');
+      const toast = document.querySelector('.toast');
+      const endpoint = window.location.protocol === 'file:'
+        ? 'http://localhost:8000/submit-denuncia'
+        : new URL('/submit-denuncia', window.location.href).href;
+
+      function mostrarMensagem(mensagem, duracao = 4000) {
+        toast.textContent = mensagem;
+        toast.classList.add('toast-show');
+        setTimeout(() => toast.classList.remove('toast-show'), duracao);
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        
+        const requiredFields = [...form.querySelectorAll('[required]')];
+        const allValid = requiredFields.every((field) => field.checkValidity());
+
+        if (!allValid) {
+          mostrarMensagem('Por favor, preencha todos os campos obrigatórios.');
+          return;
+        }
+
+        const formData = new FormData(form);
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Enviando...';
+
+        try {
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 segundos
+
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            body: formData,
+            signal: controller.signal
+          });
+
+          clearTimeout(timeoutId);
+
+          let result;
+          try {
+            result = await response.json();
+          } catch (e) {
+            throw new Error('Resposta inválida do servidor.');
+          }
+
+          if (!response.ok || !result.success) {
+            throw new Error(result.message || 'Erro ao enviar a denúncia.');
+          }
+
+          form.reset();
+          mostrarMensagem('✓ ' + result.message);
+        } catch (error) {
+          let mensagemErro = 'Erro ao enviar a denúncia.';
+          
+          if (error.name === 'AbortError') {
+            mensagemErro = 'Tempo limite excedido. Verifique sua conexão e tente novamente.';
+          } else if (error instanceof TypeError && error.message.includes('fetch')) {
+            mensagemErro = 'Erro de conexão. Verifique se o servidor está rodando em http://localhost:8000';
+          } else {
+            mensagemErro = error.message;
+          }
+          
+          console.error('Erro ao enviar denúncia:', error);
+          mostrarMensagem('✗ ' + mensagemErro);
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        }
+      });
+
+      // Verifica conexão com o servidor ao carregar a página
+      window.addEventListener('load', async () => {
+        try {
+          const response = await fetch(endpoint, {
+            method: 'OPTIONS',
+            signal: AbortSignal.timeout(5000)
+          });
+          console.log('✓ Servidor está online');
+        } catch (error) {
+          console.warn('⚠️ Servidor pode estar offline:', error.message);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mapa interativo de denúncias ambientais da SOS 102. Veja ocorrências e acompanhe ações em Tubarão, SC." />
+    <title>Mapa SOS 102 — Tubarão SC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="map.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <strong>Prevenção ambiental</strong>
+          <span>Mapa de Ocorrências</span>
+        </a>
+        <nav aria-label="Menu principal">
+          <ul class="nav-list">
+            <li><a href="index.html">Denúncia</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Mapa SOS 102</span>
+            <h1>Visualize denúncias ambientais e acompanhe ações na sua cidade.</h1>
+            <p>O painel de mapas mostra ocorrências registradas, ajudando a identificar pontos críticos e priorizar intervenções.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="index.html">Registrar denúncia</a>
+              <a class="btn outline" href="#mapa">Ver mapa</a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-hidden="true">
+            <div class="panel-chip">Tubarão, SC</div>
+            <img src="https://www.unimedriopreto.com.br/blog/wp-content/uploads/2022/06/ESG.jpg" alt="Mapa de cidade com marcações" />
+          </div>
+        </div>
+      </section>
+
+      <section id="mapa" class="map-section container">
+        <div class="section-header">
+          <span class="eyebrow">Localização</span>
+          <h2>Mapa interativo de ocorrências ambientais</h2>
+          <p>Conheça onde as denúncias foram registradas e visualize a distribuição das ações em Tubarão.</p>
+        </div>
+        <div class="map-frame">
+          <iframe
+            src="https://www.google.com/maps?q=Tubar%C3%A3o+SC&output=embed"
+            title="Mapa de Tubarão SC"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+      <section class="stats-section container">
+        <div class="stats-grid">
+          <article class="stat-card">
+            <p class="stat-value">210</p>
+            <p class="stat-label">denúncias registradas</p>
+          </article>
+          <article class="stat-card">
+            <p class="stat-value">100%</p>
+            <p class="stat-label">áreas mapeadas</p>
+          </article>
+          <article class="stat-card">
+            <p class="stat-value">+70</p>
+            <p class="stat-label">ações em andamento</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">SOS 102</p>
+          <p>Acesse o formulário para registrar novas denúncias e fortalecer o controle ambiental.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Página de denúncia</a>
+          <a href="mapa.html">Mapa de ocorrências</a>
+        </div>
+        <div class="footer-meta">
+          <p>&copy; 2026 102 Internet</p>
+          <small>Design focado em clareza, acessibilidade e confiança.</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

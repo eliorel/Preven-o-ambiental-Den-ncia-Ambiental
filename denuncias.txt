@@ -1,0 +1,56 @@
+
+========================================
+DATA: 22/06/2026 11:36:17
+NOME: Não informado
+CONTATO: Não informado
+LOCAL: Rua Teste
+DESCRIÇÃO:
+Teste
+========================================
+
+========================================
+DATA: 22/06/2026 11:36:38
+NOME: Não informado
+CONTATO: Não informado
+LOCAL: Rua Teste
+DESCRIÇÃO:
+Teste
+========================================
+
+========================================
+DATA: 22/06/2026 11:40:04
+NOME: Davi Lima Aquino
+CONTATO: (48) 99183 5549
+LOCAL: Rua das almas
+DESCRIÇÃO:
+Lixo na rua.
+FOTO: 20260622_114004_download.jfif
+========================================
+
+========================================
+DATA: 24/06/2026 15:15:37
+NOME: Não informado
+CONTATO: Não informado
+LOCAL: Rua das almas
+DESCRIÇÃO:
+lixo nas ruas
+========================================
+
+========================================
+DATA: 24/06/2026 15:19:41
+NOME: Teste
+CONTATO: teste@example.com
+LOCAL: Rua X
+DESCRIÇÃO:
+Descri��o de teste
+FOTO: 20260624_151941_teste.jpg
+========================================
+
+========================================
+DATA: 24/06/2026 15:21:14
+NOME: Não informado
+CONTATO: Não informado
+LOCAL: rua das portas
+DESCRIÇÃO:
+portas quebradas nas ruas
+========================================
